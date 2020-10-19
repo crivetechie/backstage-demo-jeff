@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-poc-deployments-consumer
+  description: Consumes deployments events
+  labels:
+    system: service-kpis
+  tags:
+    - go
+    - lambda
+spec:
+  type: website
+  lifecycle: production
+  owner: jeff@organization.com
