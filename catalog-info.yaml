@@ -4,11 +4,11 @@ metadata:
   name: backstage-poc-deployments-consumer
   description: Consumes deployments events
   labels:
-    system: service-kpis
+    system: backstage-poc
   tags:
     - go
     - lambda
 spec:
-  type: website
-  lifecycle: production
+  type: service
+  lifecycle: experimental
   owner: jeff@organization.com
