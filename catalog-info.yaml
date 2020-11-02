@@ -5,6 +5,8 @@ metadata:
   description: Jeff just does it
   labels:
     system: backstage-demo
+  annotations:
+    github.com/project-slug: crivetechie/jeff    
   tags:
     - go
     - cli
