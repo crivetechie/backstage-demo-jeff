@@ -1,13 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backstage-poc-deployments-consumer
-  description: Consumes deployments events
+  name: Jeff
+  description: Jeff just does it
   labels:
-    system: backstage-poc
+    system: backstage-demo
   tags:
     - go
-    - lambda
+    - cli
 spec:
   type: service
   lifecycle: experimental
