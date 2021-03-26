@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: Jeff
-  description: Jeff just does it
+  description: Jeff just does it 2
   labels:
     system: backstage-demo  
   tags:
